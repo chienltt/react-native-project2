@@ -15,7 +15,7 @@ const TabRouter=(props)=>{
                 },
                 tabBarIconStyle: {display:'none'}
             }} initialRouteName="StackRouter">
-                <tab.Screen name="Search" component={StackRouter}/>
+                <tab.Screen name="Use App" component={StackRouter}/>
                 <tab.Screen name="About App" component={AboutScreen}/>
             </tab.Navigator>
         </NavigationContainer>

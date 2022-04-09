@@ -39,10 +39,6 @@ const Search = ({navigation}) => {
                     ) : <View/>}
                 </ScrollView>
             </View>
-            <View style={style.footer}>
-
-            </View>
-
         </View>
     )
 }
@@ -74,9 +70,6 @@ const style = StyleSheet.create({
         borderRadius:6,
         paddingLeft:10,
         paddingRight:10
-    },
-    footer: {
-        flex: 1,
     },
     searchInput: {},
     listFilm: {}
